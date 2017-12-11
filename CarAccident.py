@@ -17,7 +17,7 @@ from sklearn.tree import DecisionTreeClassifier, export_graphviz
 # In[149]:
 
 
-def get_iris_data():
+def get_car_data():
     """Get the Car accident, from local csv or pandas repo."""
     if os.path.exists("C:\\Users\\patel.DESKTOP-SE1G8AK\\Downloads\\733 DataMining\\Project\\nassCDS.csv"):
         print("--nassCDS.csv found locally")
@@ -40,7 +40,7 @@ def get_iris_data():
 # In[150]:
 
 
-df = get_iris_data()
+df = get_car_data()
 
 
 # In[151]:
